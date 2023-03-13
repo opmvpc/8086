@@ -1,0 +1,32 @@
+{
+  "name": "opmvpc/sim8086",
+  "type": "project",
+  "require": {
+    "nunomaduro/termwind": "^1.15",
+    "vimeo/psalm": "^5.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Opmvpc\\Sim8086\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "opmvpc",
+      "email": "thibsix@outlook.be"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6",
+    "nunomaduro/collision": "6.1",
+    "pestphp/pest": "^1.22"
+  },
+  "scripts": {
+    "test": "pest"
+  }
+}
